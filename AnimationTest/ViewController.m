@@ -25,7 +25,7 @@
     [UIView setAnimationDelegate:self];
     [UIView setAnimationDidStopSelector:@selector(changeBackgroundClear)];
     
-    self.imageView.backgroundColor = [UIColor blackColor];
+    self.view.backgroundColor = [UIColor blackColor];
     
     [UIView commitAnimations];
     
@@ -46,7 +46,7 @@
     [UIView setAnimationDuration:1.0];
     [UIView setAnimationDelegate:self];
     
-    self.imageView.backgroundColor = [UIColor clearColor];
+    self.view.backgroundColor = [UIColor whiteColor];
     
     [UIView commitAnimations];
 }

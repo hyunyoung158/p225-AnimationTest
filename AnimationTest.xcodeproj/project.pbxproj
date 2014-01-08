@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		007292BF187D134B001550EB /* football.png in Resources */ = {isa = PBXBuildFile; fileRef = 007292BE187D134B001550EB /* football.png */; };
 		8BC1B141187C2B2500620D75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC1B140187C2B2500620D75 /* Foundation.framework */; };
 		8BC1B143187C2B2500620D75 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC1B142187C2B2500620D75 /* CoreGraphics.framework */; };
 		8BC1B145187C2B2500620D75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC1B144187C2B2500620D75 /* UIKit.framework */; };
@@ -21,7 +22,6 @@
 		8BC1B162187C2B2600620D75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC1B144187C2B2500620D75 /* UIKit.framework */; };
 		8BC1B16A187C2B2600620D75 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BC1B168187C2B2600620D75 /* InfoPlist.strings */; };
 		8BC1B16C187C2B2600620D75 /* AnimationTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC1B16B187C2B2600620D75 /* AnimationTestTests.m */; };
-		8BC1B176187C335600620D75 /* football.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BC1B175187C335600620D75 /* football.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		007292BE187D134B001550EB /* football.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = football.png; sourceTree = "<group>"; };
 		8BC1B13D187C2B2500620D75 /* AnimationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BC1B140187C2B2500620D75 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8BC1B142187C2B2500620D75 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -54,7 +55,6 @@
 		8BC1B167187C2B2600620D75 /* AnimationTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnimationTestTests-Info.plist"; sourceTree = "<group>"; };
 		8BC1B169187C2B2600620D75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8BC1B16B187C2B2600620D75 /* AnimationTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationTestTests.m; sourceTree = "<group>"; };
-		8BC1B175187C335600620D75 /* football.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = football.png; path = ../../../../Users/LHY/Downloads/football.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +84,7 @@
 		8BC1B134187C2B2400620D75 = {
 			isa = PBXGroup;
 			children = (
-				8BC1B175187C335600620D75 /* football.png */,
+				007292BE187D134B001550EB /* football.png */,
 				8BC1B146187C2B2500620D75 /* AnimationTest */,
 				8BC1B165187C2B2600620D75 /* AnimationTestTests */,
 				8BC1B13F187C2B2500620D75 /* Frameworks */,
@@ -233,7 +233,7 @@
 			files = (
 				8BC1B159187C2B2600620D75 /* Images.xcassets in Resources */,
 				8BC1B14B187C2B2500620D75 /* InfoPlist.strings in Resources */,
-				8BC1B176187C335600620D75 /* football.png in Resources */,
+				007292BF187D134B001550EB /* football.png in Resources */,
 				8BC1B154187C2B2500620D75 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -464,6 +464,7 @@
 				8BC1B171187C2B2600620D75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8BC1B172187C2B2600620D75 /* Build configuration list for PBXNativeTarget "AnimationTestTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +473,7 @@
 				8BC1B174187C2B2600620D75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
